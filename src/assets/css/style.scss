@@ -91,7 +91,15 @@ body {
             color: hsl(0, 0%, 100%);
             font-size: 1.2em;
             font-weight: 700;
+
+            &:hover {
+                background-color: hsl(160, 40%, 25%);
+                border-radius: 10px;
+                cursor: pointer;
+            }
         }
+
+
     }
 
 }
@@ -153,6 +161,13 @@ body {
         button {
             font-size: 1em;
 
+            &:hover {
+                background-color: hsl(160, 40%, 25%);
+                border-radius: 10px;
+                cursor: pointer;
+            }
         }
     }
+
+
 }

@@ -85,6 +85,11 @@ body {
     font-size: 1.2em;
     font-weight: 700;
   }
+  .product__card--actions button:hover {
+    background-color: hsl(160deg, 40%, 25%);
+    border-radius: 10px;
+    cursor: pointer;
+  }
 }
 @media screen and (max-width: 600px) {
   html,
@@ -136,6 +141,11 @@ body {
 
   .product__card--actions button {
     font-size: 1em;
+  }
+  .product__card--actions button:hover {
+    background-color: hsl(160deg, 40%, 25%);
+    border-radius: 10px;
+    cursor: pointer;
   }
 }
 
