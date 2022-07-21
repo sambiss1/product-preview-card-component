@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  background-color: hsl(30deg, 38%, 92%);
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+  .main__container {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+  }
+
+  .product__image--container {
+    background: url("../images/image-product-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    border-radius: 15px 0 0 15px;
+  }
+
+  .product__details--container {
+    background-color: hsl(0deg, 0%, 100%);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
