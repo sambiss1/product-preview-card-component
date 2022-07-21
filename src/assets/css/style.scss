@@ -97,14 +97,13 @@ body {
 }
 
 // Width 1280px 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
     .main__container {
         width: 80%;
         height: auto;
         margin: auto;
         border-radius: 15px;
         display: flex;
-
     }
 
     .product__image--container {
