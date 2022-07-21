@@ -13,13 +13,14 @@ body {
     display: grid;
     place-items: center;
     height: 100%;
+    font-family: "Montserrat";
 }
 
 
 @media screen and (max-width: 1440px) {
     .main__container {
         width: 50%;
-        height: 50%;
+        height: 60%;
         margin: auto;
         border-radius: 15px;
         display: flex;
@@ -36,6 +37,56 @@ body {
 
     .product__details--container {
         background-color: hsl(0, 0%, 100%);
+        padding: 0 5%;
+        border-radius: 0 15px 15px 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .product__details--title {
+        color: hsl(228, 12%, 48%);
+    }
+
+    .product__details--name {
+        font-family: "Fraunces";
+        font-size: 2.6em;
+        color: hsl(212, 21%, 14%);
+    }
+
+    .product__details--description {
+        font-size: 14px;
+        color: hsl(228, 12%, 48%);
+    }
+
+    .product__price--container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .product__price--sold {
+            font-family: "Fraunces";
+            font-size: 2.4em;
+            color: hsl(158, 36%, 37%);
+        }
+
+        .product__price--true {
+            color: hsl(228, 12%, 48%);
+            text-decoration: line-through;
+        }
+    }
+
+    .product__card--actions {
+        button {
+            background-color: hsl(158, 36%, 37%);
+            width: 100%;
+            border: 0;
+            padding: 5%;
+            border-radius: 10px;
+            color: hsl(0, 0%, 100%);
+            font-size: 1.2em;
+        }
     }
 
 }
