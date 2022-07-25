@@ -16,7 +16,7 @@ body {
 }
 
 @media screen and (max-width: 1440px) {
-  .main__container {
+  .product__container {
     width: 50%;
     height: 60%;
     margin: auto;
@@ -97,7 +97,7 @@ body {
     padding: 5%;
   }
 
-  .main__container {
+  .product__container {
     width: 100%;
     flex-direction: column;
   }
